@@ -1,0 +1,170 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 20px;
+}
+
+.layout {
+  margin-bottom: 40px;
+  display: none; /* Hide layouts by default, will show active one */
+}
+
+/* Show active layout */
+.layout:target{
+  display: block;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+.grid-item,
+.column,
+.flex-item {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+}
+
+.grid-item {
+  background-color: #28a745;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Grid Layout */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .grid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Two-Column Layout */
+.two-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%;
+}
+
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+/* Three-Column Layout */
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .three-column {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .three-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Flexbox Layout */
+.flexbox-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 20px;
+  margin: 5px;
+  background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .flexbox-layout {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    margin-bottom: 10px;
+  }
+}
+
+/* Tab Menu Styles */
+.tab-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-menu button {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.tab-menu button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tab-menu button:hover {
+  background-color: #c0c0c0;
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "email": "admin@admin.com",
+    "password": "admin1",
+    "name": "Admin",
+    "country": "Italy",
+    "hobbies": "Traveling, Photography, Sports, Movies/TV Shows",
+    "mfaCode": "684591"
+  },
+  {
+    "email": "test@example.com",
+    "password": "test",
+    "name": "admin10",
+    "country": "Germany",
+    "hobbies": "Reading",
+    "mfaCode": "684592"
+  },
+  {
+    "email": "damian@gmail.com",
+    "password": "damian",
+    "name": "damian",
+    "country": "Romania",
+    "mfaCode": "131298"
+  },
+  {
+    "email": "pascalau.stefan@gmail.com",
+    "password": "damian",
+    "name": "Stefan ",
+    "country": "Romania",
+    "mfaCode": "338747"
+  },
+  {
+    "email": "admin2@admin.com",
+    "password": "admin1",
+    "name": "admin",
+    "country": "China",
+    "hobbies": "Writing",
+    "mfaCode": "364842"
+  },
+  {
+    "email": "test@example.com",
+    "password": "admin10",
+    "name": "test@example.com",
+    "country": "China",
+    "hobbies": "Music",
+    "mfaCode": "191748"
+  },
+  {
+    "name": "John Doe",
+    "country": "United States",
+    "email": "john.doe@example.com",
+    "hobbies": "Reading, Hiking",
+    "password": "hashedpassword1"
+  },
+  {
+    "name": "Jane Smith",
+    "country": "Canada",
+    "email": "jane.smith@example.com",
+    "hobbies": "Photography, Cooking",
+    "password": "hashedpassword2"
+  },
+  {
+    "email": "admin20@admin.com",
+    "password": "admin20",
+    "name": "admin20",
+    "country": "France",
+    "hobbies": "Movies/TV Shows",
+    "mfaCode": "299928"
+  },
+  {
+    "email": "test10@test.com",
+    "password": "test10",
+    "name": "test10",
+    "country": "India",
+    "hobbies": "Swimming",
+    "mfaCode": "688010"
+  },
+  {
+    "email": "admin23@gmail.com",
+    "password": "admin23",
+    "name": "admin23",
+    "country": "Russia",
+    "hobbies": "Traveling, Cooking, Photography",
+    "mfaCode": "256897"
+  },
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "status": "active",
+    "role": "Admin",
+    "lastLogin": "2023-03-15",
+    "country": "USA",
+    "hobbies": "Reading, Hiking"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "email": "sarah@example.com",
+    "status": "active",
+    "role": "Editor",
+    "lastLogin": "2023-03-12",
+    "country": "Canada",
+    "hobbies": "Painting, Yoga"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "email": "mbrown@example.com",
+    "status": "inactive",
+    "role": "Viewer",
+    "lastLogin": "2023-02-28",
+    "country": "UK",
+    "hobbies": "Gardening"
+  },
+  {
+    "id": 4,
+    "name": "Jessica Williams",
+    "email": "jwilliams@example.com",
+    "status": "pending",
+    "role": "Editor",
+    "lastLogin": "2023-03-14",
+    "country": "Germany",
+    "hobbies": "Playing guitar, Cycling"
+  },
+  {
+    "id": 5,
+    "name": "David Miller",
+    "email": "david@example.com",
+    "status": "active",
+    "role": "Admin",
+    "lastLogin": "2023-03-10",
+    "country": "USA",
+    "hobbies": "Swimming"
+  },
+  {
+    "id": 6,
+    "name": "Emma Davis",
+    "email": "emma@example.com",
+    "status": "inactive",
+    "role": "Viewer",
+    "lastLogin": "2023-02-15",
+    "country": "Australia",
+    "hobbies": "Running"
+  },
+  {
+    "id": 7,
+    "name": "Robert Wilson",
+    "email": "rwilson@example.com",
+    "status": "active",
+    "role": "Editor",
+    "lastLogin": "2023-03-08",
+    "country": "France",
+    "hobbies": "Cooking"
+  },
+  {
+    "id": 8,
+    "name": "Jennifer Taylor",
+    "email": "jtaylor@example.com",
+    "status": "pending",
+    "role": "Viewer",
+    "lastLogin": "2023-03-01",
+    "country": "Canada",
+    "hobbies": "Photography"
+  },
+  {
+    "id": 9,
+    "name": "admin23",
+    "email": "admin23@gmail.com",
+    "status": "active",
+    "role": "Admin",
+    "lastLogin": "2025-05-12",
+    "country": "Russia",
+    "hobbies": "Traveling, Cooking, Photography"
+  },
+  {
+    "email": "admin15@admin.com",
+    "password": "admin1",
+    "name": "admin15",
+    "country": "United States",
+    "hobbies": "Running",
+    "mfaCode": "929250"
+  },
+  {
+    "email": "admin25@admin.com",
+    "password": "admin1",
+    "name": "admin25",
+    "country": "Canada",
+    "hobbies": "Traveling",
+    "mfaCode": "144782"
+  },
+  {
+    "email": "damian100@gmail.com",
+    "password": "damian1",
+    "name": "Damian Stefan",
+    "country": "Russia",
+    "hobbies": "Cycling, Running, Writing",
+    "mfaCode": "626618"
+  },
+  {
+    "email": "damian30@gmail.com",
+    "password": "damian",
+    "name": "Damian Ion",
+    "country": "Romania",
+    "hobbies": "Drawing/Painting, Gaming, Movies/TV Shows",
+    "mfaCode": "774608"
+  }
+]

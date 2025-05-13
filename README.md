@@ -4,7 +4,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Install dependencies:
 
- npm install
+ npm install 
+ npm install react-router-dom
+ npm install idb js-cookie
+ npm install @radix-ui/react-tooltip
+ npm install react-tooltip
+ npm install framer-motion
+ npm install react-datetime
+ npm install react-datepicker
+ npm install formidable   
+ npm install xlsx file-saver 
+ npm install axios react-router-dom
+ npm install fs
+ npm install bcrypt
+ npm install react-datepicker react-datetime lucide-react
+ npm install react-colorful
+ npm install js-cookie
+ npm install uuid @types/uuid
+ npm install --save-dev @types/file-saver
+ npm install --save-dev @typescript-eslint/eslint-plugin
+npm install --save-dev cross-env
+npm install zod
+
 
 First, run the development server:
 
@@ -33,8 +54,26 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+ ## Run tests: 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   npx playwright test
+    Runs the end-to-end tests.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  npx playwright test --ui
+    Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Chrome.
+
+  npx playwright test example
+    Runs the tests in a specific file.
+
+  npx playwright test --debug
+    Runs the tests in debug mode.
+
+We suggest that you begin by typing:
+
+    npx playwright test
+
+to run the test cases
+npx playwright test --headed
