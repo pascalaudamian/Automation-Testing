@@ -1,16 +1,12 @@
+[images]
+  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*"]
+
 [build]
-  command = "npm run build"
-  publish = "out" # For static export. Use `.next` for SSR
+  command = "bun run build"
+  publish = ".next"
 
-[dev]
-  command = "npm run dev"
-  port = 8888
-  targetPort = 3000
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
-[functions]
-  directory = "netlify/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -23,8 +23,6 @@ Install dependencies:
  npm install uuid @types/uuid
  npm install --save-dev @types/file-saver
  npm install --save-dev @typescript-eslint/eslint-plugin
-npm install --save-dev cross-env
-npm install zod
 
 
 First, run the development server:
@@ -44,8 +42,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-web site demo: https://automation-testing-practice-platform.onrender.com/
 
 ## Learn More
 

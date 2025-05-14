@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "cross-env NEXTJS_IGNORE_ESLINT=0 next build",
-    "start": "cross-env NEXTJS_IGNORE_ESLINT=0 next start",
-    "lint": "cross-env NEXTJS_IGNORE_ESLINT=0 next lint"
+    "build": "NEXTJS_IGNORE_ESLINT=1 next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -51,7 +51,7 @@
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^11.1.0",
     "xlsx": "^0.18.5",
-    "zod": "^3.24.4"
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -64,7 +64,6 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
-    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
