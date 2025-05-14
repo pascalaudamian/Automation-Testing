@@ -51,10 +51,12 @@ export default function HomePage() {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-2">Automation Testing Practice Platform</h1>
+      <h1 className="text-3xl font-bold mb-2">Damian's Practice Platform for Automation Testing</h1>
       <p className="text-gray-700 mb-6">
         This site has been purpose-built to support testers, QA engineers, and developers in practicing and refining their web automation skills using industry-standard tools such as Playwright and more.
-        Each section of the platform simulates common UI patterns and interaction models found in real-world web applications.
+      </p>
+        <p className="text-gray-700 mb-6">
+        Each section of the platform simulates common UI patterns and interaction models found in real-world web applications.<br/>
         All components are fully accessible and come with consistent test IDs, ARIA attributes, and semantic HTML, ensuring seamless integration with automated testing frameworks.
       </p>
 

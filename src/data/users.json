@@ -4,7 +4,7 @@
     "password": "admin1",
     "name": "Admin",
     "country": "Italy",
-    "hobbies": "Traveling, Photography, Sports, Movies/TV Shows",
+    "hobbies": "Cooking",
     "mfaCode": "684591"
   },
   {
@@ -204,5 +204,13 @@
     "country": "Romania",
     "hobbies": "Drawing/Painting, Gaming, Movies/TV Shows",
     "mfaCode": "774608"
+  },
+  {
+    "email": "testuser@example.com",
+    "password": "testpass123",
+    "name": "Test User",
+    "country": "Italy",
+    "hobbies": "Photography",
+    "mfaCode": "402766"
   }
 ]

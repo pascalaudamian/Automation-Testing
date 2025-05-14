@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Automation Testing Practice Platform",
+  title: "Practice Platform for Automation Testing",
   description: "A site designed for practicing web automation testing",
 };
 

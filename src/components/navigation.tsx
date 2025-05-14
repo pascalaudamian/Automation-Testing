@@ -70,9 +70,9 @@ export function Navigation() {
       {/* Site Title/Header - Added from SiteLayout for better integration */}
        <div className="p-2 mb-6 border-b border-zinc-200 pb-4"> {/* Added bottom border and more padding */}
          <h2 className="font-bold text-xl text-zinc-800" data-testid="site-title"> {/* Changed text color */}
-           Automation Testing
+           Damian's Platform
          </h2>
-         <p className="text-xs text-zinc-500">Practice Site</p> {/* Shortened description */}
+         <p className="text-xs text-zinc-500">for Automation Testing Practice</p> {/* Shortened description */}
        </div>
 
 
