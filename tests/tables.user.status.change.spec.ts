@@ -1,11 +1,13 @@
 import { test, expect } from '@playwright/test';
+import { TablesPage } from './page-objects/TablesPage';
 
-test('should update user status from inactive to pending', async ({ page }) => {
+test('update user status from inactive to pending', async ({ page }) => {
 
   await page.goto('/tables');
-  const michaelBrownRow = page.locator('tr', { has: page.locator('td', { hasText: 'Michael Brown' }) });
+  const tablesPage = new TablesPage(page);
+  const michaelBrownRow = tablesPage.getUserRow('Michael Brown');
   await expect(michaelBrownRow).toBeVisible();
-  const editButton = michaelBrownRow.locator('[data-testid^="edit-user-"]');
+  const editButton = tablesPage.getEditButton(michaelBrownRow);
   await expect(editButton).toBeVisible();
   await editButton.click();
   const editDialogTitle = page.locator('div[role="dialog"]').filter({ hasText: 'Edit User' });
@@ -25,3 +27,4 @@ test('should update user status from inactive to pending', async ({ page }) => {
   const updatedStatusElement = updatedMichaelBrownRow.locator('[data-testid^="user-status-"]');
   await expect(updatedStatusElement).toHaveText('pending');
 });
+

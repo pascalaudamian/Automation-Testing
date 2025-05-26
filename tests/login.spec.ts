@@ -1,4 +1,6 @@
+
 import { test, expect } from '@playwright/test';
+//import { LoginPage } from './page-objects/LoginPage';
 
 test('testing login and registration forms', async ({ page }) => {
   await page.goto('http://localhost:3000/forms');

@@ -1,0 +1,34 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByRole('button', { name: 'Core Modules ▼' }).click();
+  await page.waitForTimeout(1000);
+  await page.getByRole('button', { name: 'Advanced Modules ▼' }).click();
+  await page.waitForTimeout(1000);
+  await page.getByTestId('nav-form-elements').click();
+  await page.getByTestId('nav-tables').click();
+  await page.getByTestId('nav-dynamic-content').click();
+  await page.getByTestId('nav-dialogs-&-popups').click();
+  await page.getByTestId('nav-ajax-requests').click();
+  await page.getByTestId('nav-drag-&-drop').click();
+  await page.getByTestId('nav-iframes').click();
+  await page.getByTestId('nav-locator-practice').click();
+  await page.waitForTimeout(1000);
+  await page.getByTestId('nav-authentication-flows').click();
+  await page.getByTestId('nav-file-uploads').click();
+  await page.getByTestId('nav-pagination').click();
+  await page.getByTestId('nav-notifications').click();
+  await page.getByTestId('nav-error-handling').click();
+  await page.getByTestId('nav-performance-feedback').click();
+  await page.getByTestId('nav-responsive-layouts').click();
+  await page.getByTestId('nav-date-&-time-pickers').click();
+  await page.getByTestId('nav-canvas-&-svg-elements').click();
+  await page.getByTestId('nav-hover-events').click();
+  await page.waitForTimeout(1000);
+  await page.getByTestId('nav-state-persistence').click();
+  await page.waitForTimeout(1000);
+  await expect(page.locator('h1')).toContainText('🧪 State Persistence Demo');
+  await page.getByTestId('nav-home').click();
+  await expect(page.locator('h1')).toContainText('Damian\'s Practice Platform for Automation Testing');
+});
