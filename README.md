@@ -23,6 +23,11 @@ Install dependencies:
  npm install uuid @types/uuid
  npm install --save-dev @types/file-saver
  npm install --save-dev @typescript-eslint/eslint-plugin
+ npm install --save-dev cross-env
+ npm install zod
+ npm install -g netlify-cli - for local testing CI Build Setup
+ npm install @testing-library/react
+npm install --save-dev @types/jest
 
 
 First, run the development server:

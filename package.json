@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "NEXTJS_IGNORE_ESLINT=1 next build",
-    "start": "next start -H 0.0.0.0",
-    "lint": "next lint"
+    "build": "cross-env NEXTJS_IGNORE_ESLINT=0 next build",
+    "start": "cross-env NEXTJS_IGNORE_ESLINT=0 next start",
+    "lint": "cross-env NEXTJS_IGNORE_ESLINT=0 next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -24,6 +24,7 @@
     "@radix-ui/react-tabs": "^1.1.9",
     "@radix-ui/react-toast": "^1.2.11",
     "@radix-ui/react-tooltip": "^1.2.4",
+    "@testing-library/react": "^16.3.0",
     "@types/uuid": "^10.0.0",
     "axios": "^1.9.0",
     "bcrypt": "^5.1.1",
@@ -51,7 +52,7 @@
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^11.1.0",
     "xlsx": "^0.18.5",
-    "zod": "^3.24.3"
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -59,11 +60,13 @@
     "@playwright/test": "^1.52.0",
     "@types/bcrypt": "^5.0.2",
     "@types/file-saver": "^2.0.7",
+    "@types/jest": "^29.5.14",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
